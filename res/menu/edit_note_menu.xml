@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/save_note_menu"
+          android:icon="@android:drawable/ic_menu_save"
+          android:title="@string/update_note" />
+	<item android:id="@+id/delete_note_menu"
+          android:icon="@android:drawable/ic_menu_delete"
+          android:title="@string/delete_note" />
+	<item android:id="@+id/add_reminder_menu"
+          android:icon="@android:drawable/ic_menu_agenda"
+          android:title="@string/add_reminder" />
+    <item android:id="@+id/cancel_menu"
+          android:icon="@android:drawable/ic_menu_close_clear_cancel"
+          android:title="@string/cancel" />	
+</menu>
