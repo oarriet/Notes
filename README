@@ -1,39 +1,39 @@
 Notes
 
-Esta es una aplicación sencilla en la que el usuario podrá crear, guardar y revisar una
+Esta es una aplicacion sencilla en la que el usuario podra crear, guardar y revisar una
 notas de texto.
 
-La aplicación tendrá una pantalla principal que constará de una lista de las notas, cada
-una identificada por su titulo. Al final de esta lista aparecerá la opción de agregar una
+La aplicacion tendra una pantalla principal que constara de una lista de las notas, cada
+una identificada por su titulo. Al final de esta lista aparecera la opcion de agregar una
 nueva nota.
 
-Si se hace tap en la opción de nueva nota, se pasará a una nueva pantalla que tenga los
+Si se hace tap en la opcion de nueva nota, se pasara a una nueva pantalla que tenga los
 campos requeridos para crear una nueva nota. Estos serian un campo de texto de una sola
-línea para poner el titulo de la nota, y un campo de texto multilínea para poner el cuerpo
+linea para poner el titulo de la nota, y un campo de texto multilinea para poner el cuerpo
 de la nota.
-Estando en esta pantalla se puede usar el botón menú para ver un menú con dos opciones:
+Estando en esta pantalla se puede usar el boton menu para ver un menu con dos opciones:
 Cancelar, que cancela la nueva nota y regresa a la pantalla anterior. Y Guardar, que
-guarda la nota y regresa a la pantalla anterior (Y en la lista ya debería verse la nueva
+guarda la nota y regresa a la pantalla anterior (Y en la lista ya deberia verse la nueva
 nota).
 
-Al hacer tap en una opción de la lista correspondiente a una de las notas se pasara a una
-a una nueva pantalla semejante a la pantalla de creación de nueva nota, pero en este
-caso los campos estarán llenos con los datos de la nota seleccionada. Adicionalmente el
-menú presentará las dos opciones normales y una opción de Eliminar, que elimina la nota
+Al hacer tap en una opcion de la lista correspondiente a una de las notas se pasara a una
+a una nueva pantalla semejante a la pantalla de creacion de nueva nota, pero en este
+caso los campos estaran llenos con los datos de la nota seleccionada. Adicionalmente el
+menu presentara las dos opciones normales y una opcion de Eliminar, que elimina la nota
 mostrada y regresa a la pantalla anterior.
 
-Recordatorios: Una opción adicional en los menús que permita programar un recordatorio
-para una hora especifica del día. Este recordatorio pondrá una notificación en la
+Recordatorios: Una opcion adicional en los menus que permita programar un recordatorio
+para una hora especifica del dia. Este recordatorio pondra una notificacion en la
 barra de notificaciones del SO, la cual al ser seleccionada llevara al usuario a la nota
 correspondiente.
 
 Otras consideraciones:
-Si en algún momento se muestra la lista de nota, y no hay ninguna nota, se debe mostrar
+Si en algun momento se muestra la lista de nota, y no hay ninguna nota, se debe mostrar
 un dialogo de alerta al usuario indicando que no tiene notas guardadas. Pero no se
 cambiara de pantalla.
-La aplicación debe soportar el cambio de orientación (landscape/portrait), especialmente
-en las pantallas con campos de texto, el texto deberá mantenerse estable a pesar de estos
+La aplicacion debe soportar el cambio de orientacion (landscape/portrait), especialmente
+en las pantallas con campos de texto, el texto debera mantenerse estable a pesar de estos
 cambios.
-Las notas deben persistir entre una corrida y otra de la aplicación, o sea, deben ser
+Las notas deben persistir entre una corrida y otra de la aplicacion, o sea, deben ser
 almacenadas en memoria persistente, por ejemplo: preferencias del usuario, SQLite, u
 otro.
